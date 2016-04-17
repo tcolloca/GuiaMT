@@ -1,0 +1,218 @@
+<pre>
+
+</pre>
+<subtitle>Bombas y Obstáculos</subtitle>
+<pre>
+
+
+</pre>
+<p><minititle>Piezas, Combos y Bombas</minititle></p>
+<p>En una partida de RFJ hay que combinar al menos 4 <strong>piezas</strong> iguales para destruirlas, así sumamos puntos o aumentamos la cantidad de ese elemento destruido con el fin de cumplir nuestro objetivo y pasar de nivel.</p>
+<p>A las <strong>piezas</strong> que movemos las llamaremos "minerales" o "elementos". En el juego existen cinco distintos tipos de elementos que al ser destruidos son reemplazados sistemáticamente por otros al azar, desde la parte superior de la partida (o del sector superior, cuando se trate de un nivel dividido).</p>
+<p>Estos minerales pueden combinarse en cualquier zona del tablero y cuando desaparecen, las piezas de arriba caen para ocupar el espacio vacío que dejan las eliminadas, por eso decimos que las nuevas se regeneran "desde arriba". Cuando luego de una combinación una o más piezas de las que caen se rodean de otros mismos minerales, juntando mínimo 4 iguales nuevamente, se producirá un <strong>combo</strong>, las fichas se destruirán y no te descontarán otro movimiento. Vale aclarar que las fichas se regeneran recién cuando se acaban todos los combos que puedan darse. </p>
+<p>Cuando combinamos de 5 a más minerales idénticos obtendremos en el lugar una <strong>bomba.</strong> Una <strong>bomba</strong> ocupa el lugar de una pieza y se activará cuando se haga una combinación al lado de ella. Al activarse, destruirá piezas o dañará bloques obstáculos, dependiendo de su alcance. Podremos obtener 6 tipos diferentes de bombas.</p>
+<p><minititle>Tipos de Bombas</minititle></p>
+<table id="writer-table">
+<tr class="odd">
+<td class="odd">Bomba Clásica</td>
+<td class="even"><p>Se obtiene combinando 5 elementos iguales.</p><p>Su zona de acción es de una pieza a los costados, otra arriba y otra abajo.</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/> </td>
+</tr>
+<tr class="even">
+<td class="odd">Bomba Horizontal</td>
+<td class="even"><p>Se obtiene combinando 6 elementos iguales, como la Bomba vertical.</p><p>Su zona de acción es toda la línea horizontal o fila de la bomba (sus costados).</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/> </td>
+</tr>
+<tr class="odd">
+<td class="odd">Bomba Vertical</td>
+<td class="even"><p>Se obtiene combinando 6 elementos iguales, como la Bomba horizontal.</p><p>Su zona de acción es toda la línea vertical o columna de la bomba (arriba y abajo).</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/> 
+</td>
+</tr>
+<tr class="even">
+<td class="odd">Bomba Cruz o Más</td>
+<td class="even"><p>Se obtiene combinando 7 elementos iguales, como la Bomba Equis.</p><p>Su zona de acción es toda la línea vertical y toda la horizontal de la bomba (forma de +).</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/> </td>
+</tr>
+<tr class="odd">
+<td class="odd">Bomba Equis</td>
+<td class="even"><p>Se obtiene combinando 7 elementos iguales, como la Bomba Cruz.</p><p>Su zona de acción son las diagonales que cruzan la bomba (forma de X).</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/> </td>
+</tr>
+<tr class="even">
+<td class="odd">Bomba de Elementos</td>
+<td class="even"><p>Se obtiene combinando 8 o más elementos iguales.</p><p>Su zona de acción son todas las piezas del elemento que la activa (estén donde estén).</p></td> 
+<td class="odd"><img src="/images/street_writer/other/ok.png" width="40px" title="Ok" alt="Ok"/></td> 
+</tr>
+</table>
+<pre>
+
+
+</pre>
+<p><minititle>Obstáculos</minititle></p>
+<p>A medida que avancemos en el juego, nos encontraremos con niveles que presenten nuevos retos en la partida. Una vez que aparezca un reto, este podrá repetirse en cualquier nivel posterior hasta el centro de la tierra. </p>
+<p>En cada nuevo tramo de niveles se presentan nuevos retos, estos tramos, que son gráficamente diferentes y a los que denominamos <a href="http://guiamt.net/rockfaller_journey/primeros_pasos/#mundosrj">mundos,</a> van a ir combinando los retos propios de sus partidas con los que presentaron sus antecesores.</p>
+<p>A continuación, detallaremos los obstáculos por Mundo.</p>
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Bloques de oro:</b> Se tratan de casillas fijas sobre las que se pueden posicionar elementos u otros obstáculos. Para romperlas hay que realizar una combinación de elementos encima de ellas. El alcance un bomba puede destruirlas, como también el uso de un pico. Aparecen cuando el Objetivo te demande romper estos bloques. </p>
+<p><b>Bloques Grises:</b> Se tratan de casillas con una piedra gris encima. Estas piedras no se pueden girar y tampoco caen cuando se rompen elementos bajo a ellas. Solamente se pueden romper realizando combinaciones pegadas a ellas o con el pico. Estos bloques poseen 3 estados y pueden aparecer en cualquiera de ellos, al iniciar una partida. El primer estado es cuando están sanos, el 2do. es cuando están ligeramente dañados y el 3ro cuando están completamente dañados. Cada combinación al lado de estos bloques lo lleva a su siguiente fase, un bloque completamente dañado es destruido a la próxima combinación. El alcance de una bomba cuenta como una combinación al lado. </p>
+</td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#937A5B" align="center" bordercolor="#52302C">
+<tr>
+<td valign="middle" align="center"><font color="#52302C"><strong>Mundo Subterráneo (Del 1 al 15):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="/images/rockfaller_journey/bombas_y_obstaculos/nivel13.png"  width="130px" alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="#52302C"><b>Obstáculos:</b></font></p>
+<p><font color="#52302C">Bloques de Oro: <img src="/images/rockfaller_journey/bombas_y_obstaculos/bloqueoro2.png" width="35px" alt="Captura" title="Captura"/> <br/> Bloques Grises:  <img src="/images/rockfaller_journey/bombas_y_obstaculos/bloquesgrises3.png" width="100px" alt="Bloque Grises" title="Bloques Grises"/></font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Piezas o Bloques Congelados:</b> A simple vista parecen similares a los bloques grises, pero son minerales comunes o tesoros que se encuentran congelados, por tanto podrán moverse o caer en un espacio vacío normalmente, incluso pueden posicionarse sobre casillas de oro.</p> 
+<p> Las piezas congeladas tienen 2 estados, el primero es cuando están completamente sanos, el segundo es cuando están dañados. Para pasar del primer estado al otro hay que realizar una combinación al lado. Cuando están dañados y se combinan elementos a su costado, la ficha que se encontraba congelada queda en descubierto (al contrario de los bloques grises, que se destruyen). El alcance de una bomba cuenta como una combinación. Un pico elimina una pieza por completo.</p>
+<p>Otra diferencia con los bloques grises es que estos pueden aparecer en cualquier momento, durante una partida. Además, pueden ser destruidas por el magma (que aparece en el Mundo Ardiente) y capturadas por las burbujas (que aparecen en el Mundo Agua).</p>
+</td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#5FA9CC" align="center" bordercolor="#2C7D90">
+<tr>
+<td valign="middle" align="center"><font color="white"><strong>Mundo Congelado (Del 16 al 35):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="/images/rockfaller_journey/bombas_y_obstaculos/nivel33.png" width="130px" alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="white"><b>Obstáculos:</b></font></p>
+<p><font color="white">Piezas congeladas: <img src="/images/rockfaller_journey/bombas_y_obstaculos/bloquescongelados.png" alt="Captura" width="100px" title="Captura"/></font></p><p><font color="white"> + Obstáculos anteriores.</font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Ríos de Magma:</b>  El río de magma o simplemente el magma malvado(?) es un torrente que aparecerá desde el pie de la partida ocupando y destruyendo cuatro casillas verticalmente. Permanecerá por unos 4 movimientos, al turno de irse se anunciará en otra columna para que al siguiente movimiento reaparezca (el anuncio se trata de una pequeña linea en donde aparecerá). </p>
+<p>El Magma puede complicar una partida o puede favorecer. Una desventaja será el bloquear movimientos en un sector importante del campo de juego en algún momento de la partida, además el hecho de no destruir a los bloques oro significa que podrá complicar al privarlos de la libertad por unos turnos. Una ventaja será cuando destruya a otros obstáculos: Bombas de tiempo (aparecen en Civilización perdida), piezas congeladas (aparecen en Mundo Congelado) y burbujas (aparecen en Mundo Agua). Los tesoros alcanzados por el magma también desaparecerán.  </p>
+<p>Es muy fácil advertir la presencia de este obstáculo en un nivel, solamente habrá que ver la parte inferior de la partida y observar si hay un charco de magma ubicado ahí. Luego del primer movimiento ya podremos ver en donde se anuncia el torrente por primera vez. Hasta ahora no se ha descubierto patrón alguno para las columnas que toma. </p>
+</td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#E26D16" align="center" bordercolor="#CA2000">
+<tr>
+<td valign="middle" align="center"><font color="#CA2000"><strong>Mundo Ardiente (Del 36 al 55):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="/images/rockfaller_journey/bombas_y_obstaculos/nivelmagma.png" width="130px"alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="#CA2000"><b>Obstáculos:</b></font></p>
+<p><font color="#CA2000">Ríos de Magma: <img src="/images/rockfaller_journey/bombas_y_obstaculos/magma.png"  alt="Captura" title="Captura"/> + Anteriores</font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Piezas en burbujas:</b> Las burbujas pueden llegar a ser tu peor enemigo en el juego si no las destruyes a tiempo. Son esferas transparentes que encerrarán a una ficha y no dejarán que la muevas. Aparecen al inicio del juego y si no estallas una en cada movimiento, una de ellas se reproducirá, encerrando a un nuevo elemento (lo que significa que si en un movimiento estallas una, no se reproducirán). </p>
+<p>Las burbujas se reproducen por zonas, es decir, si en un turno no estallaste alguna, cualquiera de ellas contagiará a un elemento que se encuentre pegado, creando una nueva esfera. Para estallarlas debes realizar una combinación al lado suyo o usar un pico. También el alcance de una bomba o del magma las eliminan.</p>
+<p>Además de elementos, también podrán encerrar tesoros, bloques congelados o bombas. Lo que no pueden encerrar es a las bombas de tiempo (aparecen en Civilización Perdida), si en un turno intentan encerrarlas, la burbuja estallará perdiendo la oportunidad de reproducirse, el explosivo de tiempo seguirá. </p>
+<p>Cuando se revienta alguna, la pieza capturada quedará libre, no desaparecerá. </p>
+</td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#4682B4" align="center" bordercolor="#204F58">
+<tr>
+<td valign="middle" align="center"><strong><font color="#204F58">Mundo Agua (Del 56 al 75):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="/images/rockfaller_journey/bombas_y_obstaculos/nivel56.png" width="130px" alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="#204F58"><b>Obstáculos:</b></font></p>
+<p><font color="#204F58">Burbujas atrapa piezas: <img src="/images/rockfaller_journey/bombas_y_obstaculos/burbuja_png.png" width="60px" alt="Captura" title="Captura"/></font></p><p><font color="#204F58"> + Obstáculos anteriores.</font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Bombas de tiempo:</b> Las bombas de tiempo son aparatos explosivos que poseen un contador (consta de un número de una cifra), cada movimiento irá haciendo que el conteo se acerque a 0, un turno en donde el magma desaparezca o aparezca podrá contar como doble, así que cuidado. Al momento de llegar a 0 se perderá la partida definitivamente.</p>
+<p>Para romper las bombas de tiempo basta con combinar minerales al lado, usar un pico o que la alcance el efecto de una bomba del juego. También el magma las destruye. </p>
+<p>Pueden aparecer al principio de la partida o ir cayendo como fichas durante ella, además podrás ver varias a la vez y podrás moverlas (excepto cuando las bloquee el Gas tóxico del Centro de la Tierra). Aparecen con el número 9 y a veces con números más bajos, así que deberás estar atento a la totalidad del campo de juego. </p>
+</td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#F1E5A1" align="center" bordercolor="#D7BF4B">
+<tr>
+<td valign="middle" align="center"><font color="#D7BF4B"><strong>Civilización Perdida (76 al 95):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="http://guiamt.net/images/street_writer/other/ok.png" alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="#D7BF4B"><b>Obstáculos:</b></font></p>
+<p><font color="#D7BF4B">Bombas de tiempo: <img src="http://guiamt.net/images/street_writer/other/ok.png" alt="Captura" title="Captura"/></font></p> <br/><p><font color="#D7BF4B"> + Obstáculos anteriores.</font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<pre>
+
+
+</pre>
+<table cellpadding="10px">
+<tr>
+<td valign="top">
+<p>
+<b>Gas Tóxico:</b> Se trata de un sector afectado por nube de Gas rojo que no te permitirá actuar sobre la zona afectada, molestando además un poco a la apreciación visual de los elementos.</p>
+<p>El gas puede permanecer fijo en un sector y ir rotando en partes del campo durante toda la partida. Cuando hablamos de rotar nos referimos a estar sobre un sector o más y tras un movimiento liberar esa zona o esas zonas y afectar a otra/s. En caso de rotar, los movimientos siempre está predeterminados en el nivel, nunca afectará a algunos elementos al azar.</p>
+<p>El hecho de que una parte esté bajo el manto de gas no quiere decir que sus fichas puedan llegar a ser eliminadas por una bomba, como efecto de un combo o cuando una ficha de sus extremos o bordes sea parte de una combinación.</p>
+<p>El gas puede capturar todo tipo de obstáculos, bombas o elementos, y no podrá ser destruido. </p></td>
+<td width="300" align="right" valign="top">
+<table cellpadding="10px" border="2px" bgcolor="#EC961A" align="center" bordercolor="#CA3903">
+<tr>
+<td valign="middle" align="center"><font color="#CA3903"><strong>Centro de la Tiera (96 al 120):</font></strong>
+</td>
+</tr>
+<tr><td align="center"><img src="http://guiamt.net/images/street_writer/other/ok.png" alt="Captura" title="Captura"/></td></tr>
+                <tr><td ><p><font color="#CA3903"><b>Obstáculos:</b></font></p>
+<p><font color="#CA3903">Gas Tóxico: <img src="http://guiamt.net/images/street_writer/other/ok.png" alt="Captura" title="Captura"/></font></p> <br/><p><font color="#CA3903"> + Obstáculos anteriores.</font></p>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

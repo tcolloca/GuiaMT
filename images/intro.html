@@ -1,0 +1,97 @@
+﻿<subtitle>Imágenes</subtitle>
+
+<p>
+Para saber los posibles directorios de un juego, entra a http://www.guiamt.net/images/el_nombre_del_juego . Ten en cuenta que el nombre del juego debe ser escrito en minúscula, sin tildes, y reemplazando espacios con guiones bajo (_). Ej: Para ver los subdirectorios de Street Writer, el link sería http://www.guiamt.net/images/street_writer .
+</p>
+
+<minititle>Subir una imagen</minititle>
+
+<p>
+	<form method="POST"  enctype="multipart/form-data">
+		<table id="kube-table" class="entry">
+			<tr>
+				<th class="odd"><b>Juego</b></th>
+				<th class="even"><b>Subdirectorio</b></th>
+				<th class="odd"><b>Imagen</b></th>
+				<th class="even" />
+			</tr>
+			<tr class="odd">
+				<td class="odd">
+                	<select name="game">
+                		<option value="none">Elige una Secci&oacute;n:</option>
+                        <option value="news">Noticia</option>
+                        <option value="dead_cells">Dead Cells</option>
+                        <option value="kube">Kube</option>
+                        <option value="monstruhotel2">Monstruhotel 2</option>
+                        <option value="hammerfest">Hammerfest</option>
+                        <option value="mush">Mush</option>
+                        <option value="zombinoia">Zombinoia</option>
+                        <option value="alphabounce">Alphabounce</option>
+                        <option value="street_writer">Street Writer</option>
+                        <option value="kadokado">KadoKado</option>
+                        <option value="monstruhotel">Monstruhotel</option>
+                        <option value="arkadeo">Arkadeo</option>
+                        <option value="teacher_story">Teacher Story</option>
+                        <option value="snake">Snake</option>
+                        <option value="carapass">Carapass</option>
+                        <option value="kingdom">Kingdom</option>
+                        <option value="rockfaller_journey">Rockfaller Journey</option>
+                        <option value="minitroopers">Minitroopers</option>
+                        <option value="dinorpg">DinoRPG</option>
+                        <option value="elbruto">ElBruto</option>
+                        <option value="drakarnage">Drakarnage</option>
+                        <option value="fever">Fever</option>              
+                	</select>
+                </td>
+				<td class="even"><input type="text" name="subdir"></td>
+				<td class="odd"><input type="file" name="img" id="img"></td>
+				<td class="even"><input type="submit" name="upload" value="Enviar"></td>
+			</tr>	
+		</table>
+	</form>	 
+</p>
+<br />
+<minititle>Crear subdirectorio</minititle>
+
+<p>
+	<form method="POST">
+		<table id="kube-table" class="entry">
+			<tr>
+				<th class="odd"><b>Juego</b></th>
+				<th class="even"><b>Subdirectorio</b></th>
+				<th class="even" />
+			</tr>
+			<tr class="odd">
+				<td class="odd">
+                	<select name="game">
+                		<option value="none">Elige una Secci&oacute;n:</option>
+                        <option value="news">Noticia</option>
+                        <option value="dead_cells">Dead Cells</option>
+                        <option value="kube">Kube</option>
+                        <option value="monstruhotel2">Monstruhotel 2</option>
+                        <option value="hammerfest">Hammerfest</option>
+                        <option value="mush">Mush</option>
+                        <option value="zombinoia">Zombinoia</option>
+                        <option value="alphabounce">Alphabounce</option>
+                        <option value="street_writer">Street Writer</option>
+                        <option value="kadokado">KadoKado</option>
+                        <option value="monstruhotel">Monstruhotel</option>
+                        <option value="arkadeo">Arkadeo</option>
+                        <option value="teacher_story">Teacher Story</option>
+                        <option value="snake">Snake</option>
+                        <option value="carapass">Carapass</option>
+                        <option value="kingdom">Kingdom</option>
+                        <option value="rockfaller_journey">Rockfaller Journey</option>
+                        <option value="minitroopers">Minitroopers</option>
+                        <option value="dinorpg">DinoRPG</option>
+                        <option value="elbruto">ElBruto</option>
+                        <option value="drakarnage">Drakarnage</option>
+                        <option value="fever">Fever</option>                  
+                	</select>
+                </td>
+				<td class="even"><input type="text" name="subdir" required="required"></td>
+				<td class="odd"><input type="submit" name="create" value="Enviar"></td>
+			</tr>	
+		</table>
+	</form>	 
+</p>

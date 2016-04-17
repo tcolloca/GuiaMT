@@ -1,0 +1,133 @@
+﻿<!-- queda por agregar: Si hay alguna forma de quitarse amordazado, sobrecargado(objetos pesados) y perdido. Quedan un par de estados que no aparecen en la lista de la ayuda (E. Físicas, bacteriales x2, y no se si alguno mas). Verificar suicida -->
+
+
+
+<p><subtitle>Estados</subtitle></p>
+<pre>
+
+</pre>
+<simpletext>
+<p> A lo largo del juego, a través de acciones o de manera automática, aparecerán <b>estados</b> en el costado de la imagen de tu personaje. Aquí se explica qué significa cada uno de ellos:</p>
+<pre>
+
+</pre>
+<table width="740px" bgcolor="#006699" bgcolor="#006699" bordercolor="#1E3957" height="1364" border="3px"> 
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/starving.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Hambriento</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Llevas un buen tiempo sin probar bocado. Cada ciclo sin comer te vale 1 <img src="http://mush.twinoid.es/img/icons/ui/lp.png" title="hp" alt="hp" />.</b></i></p> Consumir un ingerible aumenta el nivel de saciedad, dependiendo del ingerible del que se trate. (Ración/Bistec: +4 | Plátano: +1 | Otras frutas: varía en cada partida). Con cada ciclo, se pierde 1 punto de saciedad. Si se tiene 0 puntos de saciedad, con cada ciclo se gana 1 punto de hambre. Cuando se llega a 24 puntos de hambre, se gana este estado, y se pierde 1 <img src="http://mush.twinoid.es/img/icons/ui/lp.png" title="hp" alt="hp" /> con cada ciclo. Ingerir cualquier consumible reinicia el contador de hambre a 0, y anula dicho estado.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/gagged.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Amordazado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Alguien se hartó de tus lloriqueos.</b></i></p> Aquel con este estado, fue previamente amordazado con la <i>Cinta adhesiva</i>, y no podrá participar en conversaciones privadas ni públicas. El costo para amordazar es de 3 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" />. </font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/demoralized.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Decaído</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Deberías mejorar esa cara, sabes que un estado de ánimo bajo te puede dar muy malas sorpresas.</b></i></p> Este estado aparecerá si tienes entre 2 y 4 <img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" />. Si se lo tiene mucho tiempo, puede acabar en <a href="/mush/enfermedades/#depresion"><b>depresión</b></a>. Se quita al alcanzar 5 <img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" />. </font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/suicidal.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Suicida</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Hasta una simple cuchara de plástico te da ideas... debes reponerte... y RÁPIDO.</b></i></p>Este estado aparece cuando te quedas con un solo <img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" />. En el próximo ciclo, morirás, a menos que consigas al menos 1 <img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" />.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/mush.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Mush</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Ahora eres un Mush.</b></i></p> Este estado te aparecerá si eres un <a href="/mush/mush"><b>Mush</b></a>. No podrán verlos los otros jugadores que no son Mush.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/dirty.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Sucio</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Estás muy sucio y apestas... Una buena ducha no te vendría mal.</b></i></p> Para quitarte este estado, debes lavarte en una ducha, con un costo de 2 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" />. Si eres Finola, pierdes un <img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" /> cada ciclo. Tambien impide trabajar en: centro de comunicaciones, terminal Astro, terminal BIOS, corazón de NERÓN, Laboratorio, e impide cargar oxígeno. Los injertos tienen mayor posibilidad de fallar. Este estado puede aparecer cuando: se extirpa una espora; al tener gastroenteritis; al comer una ración, una fruta, café, o carne alien; al trabajar en el Laboratorio; al trabajar en el Jardín Hidropónico; al colaborar en PILGRED; al sabotear; al reparar; al cargar combustible; o en una expedición.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/laid.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Recostado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Estás recostado.</b></i></p> Este estado se obtiene al recostarse en una cama. Ganarás 1 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> adicional por cada pasar de ciclo, a menos que seas <a href="/mush/personajes/chao"><b>Wang Chao</b></a>, donde sólo ganarás los puntos habituales que otorga el estado hiperactivo.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/encumbered.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Sobrecargado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Llevas objetos bastante pesados. Tus movimientos son más costosos.</b></i></p> Se obtiene al cargar al menos un objeto pesado. Los objetos pesados son el Microondas, y el Supergelador. El cambio de sala costará 3 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" />.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/sleepy.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Inactivo</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Si tus barras de <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> están llenas, eres considerado como inactivo y te vuelves un blanco fácil. No queremos imaginar lo que pasará...</b></i></p> Se obtiene al tener todos los <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> y <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" />. Para quitarlo debes gastar al menos un <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> o un <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" />.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/moduling.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Concentrado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Estás ingresando a un Terminal.</b></i></p> Aparece cuando entras a una terminal, y se irá una vez que la dejes.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/lost_on_planet.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Perdido...</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Has perdido la posibilidad de salir de ahí y te arrepientes.</b></i></p> Aparece cuando te encuentras perdido en un planeta durante una exploración.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/germaphobic.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Misófobo</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Tienes miedo a la suciedad. Pierdes un punto de ánimo (<img src="http://mush.twinoid.es/img/icons/ui/moral.png" title="Puntos de Ánimo" alt="Puntos de Ánimo" />) por cada ciclo que estés sucio. Tampoco puedes acariciar al gato.</b></i></p>Este estado sólo lo tiene <a href="/mush/personajes/finola"><b>Finola</b></a>, y no puede quitarse.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/disabled.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Minusválido</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Un minusválido gana 2 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" /> menos en tus conversiones de <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" />-<img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" />. Pero puede desplazarse gratis mientras esté en una sala que tenga al menos un tripulante.</b></i></p> Este estado sólo lo tiene <a href="/mush/personajes/terrence"><b>Terrence</b></a>, y no puede quitarse. Cabe destacar que para que el desplazamiento sea gratis, debe haber un tripulante en la habitación <strong>original</strong>. En caso de portar la Patinete Anti-Gravedad siendo este personaje, obtendrás dos <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" /> a cambio de un <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" />, a menos que en la habitación original haya otro tripulante, y entonces moverse será gratis, pero no generará <img src="http://mush.twinoid.es/img/icons/ui/pa_slot2.png" title="Puntos de Movimiento" alt="Puntos de Movimiento" />.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/unsociable.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Antisocial</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Si al inicio de un ciclo, hay al menos un tripulante en la sala donde estás, pierdes un Punto de Ánimo.</b></i></p> Este estado sólo lo tiene <a href="/mush/personajes/raluca"><b>Raluca</b></a>, solo puede quitarse si se es Mush y posteriormente es curado. Para ver cómo compensar dicho estado, se sugiere ver la guía de este personaje.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/immune.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Inmunizado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>El inmunizado no puede ser contagiado por el Mush. Es muy práctico cuando no se sabe en quién confiar...</b></i></p> Este estado sólo lo tiene <a href="/mush/personajes/chun"><b>Chun</b></a>, y no puede quitarse.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/stuck_in_ship.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Bloqueado <br \>en la nave</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>No tienes el equipo necesario para explorar este planeta. No te es posible salir de la nave.</b></i></p>Se obtiene cuando en una expedición a un planeta sin oxígeno no llevas traje espacial, y hace que no puedas ir con los otros a explorar.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/belly_full.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Barriga llena</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Ya no puedes ingerir nada más.</b></i></p> Consumir un ingerible aumenta el nivel de saciedad, dependiendo del ingerible del que se trate. (Ración/Bistec: +4 | Plátano: +1 | Otras frutas: varía en cada partida). Este estado se gana al tener un nivel de saciedad de 3 o más. El estado se anula cuando el nivel de saciedad es de 2 o menos. Con cada ciclo, se pierde 1 punto de saciedad.</font></td>
+</tr><tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/genius_idea.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Genialidad</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Tu próxima Reparación o Investigación será un éxito.</b></i></p> Este estado aparece al activar la habilidad <a href="/mush/habilidades/#genio"><b>Genio</b></a>, y entonces el siguiente aporte a una investigación o proyecto será del 100%.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/guardian.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Guardián</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Cuando un guardián está en la sala, el visitante solo puede ir al lugar de donde viene.</b></i></p> Este estado se obtiene al mutar por un costo de 3 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> si eres un <a href="/mush/mush"><b>Mush</b></a>, no pudiéndose quitar; o usando la acción sala reservada, con un costo de 1 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" />. No afecta a otros mush mutados. En el caso de los humanos, no conviene usar sala reservada, ya que hay dos maneras de entrar a todas las salas, excepto los almacenes centrales, Nexus y comedor. En cambio, para el mush, se puede usar para bloquear el paso de un almacén central cuyo tanque esté saboteado, usarlo en el pasillo central para bloquear el Nexus, o usarlo en el delantero para bloquear el comedor.
+</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/hyperactive.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Hiperactivo</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>Ganas un punto de movimiento en cada ciclo. No ganas ningún PA adicional al recostarte.</b></i></p> Este estado sólo lo tiene <a href="/mush/personajes/chao"><b>Wang Chao</b></a> y no se puede quitar.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/pacifist.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Pacifista</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b>En la sala donde estás, se necesitará 2 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> adicionales para realizar acciones agresivas.</b></i></p> Este estado sólo lo tiene <a href="/mush/personajes/ian"><b>Ian Soulton</b></a> y no se puede quitar.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://mush.twinoid.es/img/icons/ui/status/berzerk.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Mutado</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1"><p><i><b> Has mutado. Tus daños tienen un bonus y tienes el rol de guardián permanente.</b></i></p> Este estado se obtiene al mutar por un costo de 3 <img src="http://mush.twinoid.es/img/icons/ui/pa_slot1.png" title="Puntos de Acción" alt="Puntos de Acción" /> si eres un <a href="/mush/mush"><b>Mush</b></a>, y no se puede quitar. Sólo podrás atacar, moverte por la nave, sabotear, y usar la habilidad <a href="/mush/habilidades/#devorador_de_esporas"><b>Devorador de esporas</b></a> si es que aún te queda una.</font></td>
+</tr>
+<tr width="740px" height="62px">
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="43px"><img src="http://data.mush.twinoid.es/img/icons/ui/status/psy_disease.png" /></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="center" width="134px"><b>Enfermedad Psicológica</b></td>
+<td style="border:2px solid #1E3957; padding: 10px" align="left" width="563px" style="padding-left:10px;"><font size="-1">Este estado se obtiene aleatoriamente. Se quita tomando un remedio en particular para la enfermedad que te ha tocado, algunas de ellas con el tiempo, y sino estando acostado cierto tiempo con un <a href="/mush/personajes/janice"><b>psicólogo</b></a> en la misma sala al pasar el ciclo. Para más información, ver la sección <a href="/mush/enfermedades"><b>Enfermedades</b></a>.</font></td>
+</tr>
+
+</table>
+
+</simpletext> 
