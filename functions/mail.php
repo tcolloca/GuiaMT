@@ -1,12 +1,5 @@
 <?php
 
-	define(MAIL_HOST, "snowstorm.dreamhost.com");
-	define(MAIL_USER, "tomcol7");
-	define(MAIL_PASSWORD, "Guiamt2013");
-	define(MAIL, "no-reply@guiamt.net");
-	define(MAIL_NAME, "GuiaMT");
-	define(MAIL_TOM, "tom@guiamt.net");
-
 	function sendMail($to, $toName, $subject, $content, $from, $fromName, $reply, $replyName){
 		
 		/*echo "to: ".$to;
