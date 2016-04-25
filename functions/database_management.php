@@ -1,21 +1,4 @@
 <?php
-	define(DB_HOST, "mysql.guiamt.net");
-	define(DB_NAME, "guiamt");
-	
-	define(DB_ACCOUNTS_USER, "accountsmanager");
-	define(DB_ACCOUNTS_PASSWORD, "accountsMT2014");
-	
-	define(DB_EVENTS_USER, "events_manager");
-	define(DB_EVENTS_PASSWORD, "eventsMT2014");
-	
-	define(DB_TABLES_USER, "tables_manager");
-	define(DB_TABLES_PASSWORD, "tablesMT2014");
-	
-	define(DB_TABLE_EDITOR_USER, "table_editor");
-	define(DB_TABLE_EDITOR_PASSWORD, "tableEditorMT2014");
-	
-	define(DB_LOG_USER, "log_manager");
-	define(DB_LOG_PASSWORD, "logMT2014");
 
 	function connectDB($action){
 		$DBuser = "";
