@@ -1,0 +1,1 @@
+php_value include_path ".:/home/tomcol7/private/secret.php"

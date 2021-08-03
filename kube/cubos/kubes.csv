@@ -1,0 +1,77 @@
+1;<img src="/images/kube/kubes/kube01.png" title="Cemento"/>;Cemento;<b>Mezcladora de cemento Boch</b> (Tienda);Ver <a href="http://ww.guiamt.es/kube/cubos/#cemento"><b>Cubos Cemento</b></a>.
+2;<img src="/images/kube/kubes/kube02.gif" title="Agua"/>;Agua;Isla Azul/Isla Milagro;Funciona como cualquier bloque de agua.
+3;<img src="/images/kube/kubes/kube03.png" title="Tierra marrón"/>;Tierra marrón;Isla Abedul; -
+4;<img src="/images/kube/kubes/kube04.png" title="Madera Abedul"/>;Madera Abedul;Isla Abedul; -
+5;<img src="/images/kube/kubes/kube05.png" title="Hojas Abedul"/>;Hojas Abedul;Isla Abedul; -
+6;<img src="/images/kube/kubes/kube06.png" title="Tierra de Otoño"/>;Tierra de Otoño;Isla Otoño; -
+7;<img src="/images/kube/kubes/kube07.png" title="Madera de Otoño"/>;Madera de Otoño;Isla Otoño; -
+8;<img src="/images/kube/kubes/kube08.png" title="Hojas de Otoño"/>;Hojas de Otoño;Isla Otoño; -
+9;<img src="/images/kube/kubes/kube09.png" title="Tierra Oscura"/>;Tierra Oscura;Isla Oscura; -
+10;<img src="/images/kube/kubes/kube10.png" title="Madera Oscura"/>;Madera Oscura;Isla Oscura; -
+11;<img src="/images/kube/kubes/kube11.png" title="Hojas Oscuras"/>;Hojas Oscuras;Isla Oscura; -
+12;<img src="/images/kube/kubes/kube12.png" title="Hierbas Oscuras"/>;Hierbas Oscuras;Isla Oscura; -
+13;<img src="/images/kube/kubes/kube13.png" title="Tierra Azul"/>;Tierra Azul;Isla Azul; -
+14;<img src="/images/kube/kubes/kube14.png" title="Corazón de Nube"/>;Corazón de Nube;Isla Azul; -
+15;<img src="/images/kube/kubes/kube15.png" title="Nube"/>;Nube;Isla Azul; -
+16;<img src="/images/kube/kubes/kube16.png" title="Madera Clara"/>;Madera Clara;Isla Shinsekai; -
+17;<img src="/images/kube/kubes/kube17.png" title="Hojas Rosas"/>;Hojas Rosas;Isla Shinsekai; -
+18;<img src="/images/kube/kubes/kube18.png" title="Raíces"/>;Raíces;Isla Gigante; -
+19;<img src="/images/kube/kubes/kube19.png" title="Madera Gigante"/>;Madera Gigante;Isla Gigante; -
+20;<img src="/images/kube/kubes/kube20.png" title="Hojas Gigantes"/>;Hojas Gigantes;Isla Gigante; -
+21;<img src="/images/kube/kubes/kube21.png" title="Tierra-Nieve"/>;Tierra-Nieve;Isla Nevada; -
+22;<img src="/images/kube/kubes/kube22.png" title="Madera de Pino"/>;Madera de Pino;Isla Nevada; -
+23;<img src="/images/kube/kubes/kube23.png" title="Hojas-Nieve"/>;Hojas-Nieve;Isla Nevada; -
+24;<img src="/images/kube/kubes/kube24.png" title="Jungla"/>;Jungla;Isla Jungla; -
+25;<img src="/images/kube/kubes/kube25.png" title="Lianas Oscuras"/>;Lianas Oscuras;Isla Jungla; -
+26;<img src="/images/kube/kubes/kube26.png" title="Lianas Claras"/>;Lianas Claras;Isla Jungla; -
+27;<img src="/images/kube/kubes/kube27.png" title="Lianas Podridas"/>;Lianas Podridas;Isla Jungla; -
+28;<img src="/images/kube/kubes/kube28.png" title="Muro"/>;Muro;Isla Cueva; -
+29;<img src="/images/kube/kubes/kube29.png" title="Roca"/>;Roca;Isla Cueva; -
+30;<img src="/images/kube/kubes/kube30.png" title="Pilar"/>;Pilar;Isla Cueva; -
+31;<img src="/images/kube/kubes/kube31.png" title="Pradera"/>;Pradera;Isla Pradera; -
+32;<img src="/images/kube/kubes/kube32.png" title="Hierbas Claras"/>;Hierbas Claras;Isla Pradera; -
+33;<img src="/images/kube/kubes/kube33.png" title="Hierbas"/>;Hierbas;Isla Pradera; -
+34;<img src="/images/kube/kubes/kube34.png" title="Pantano"/>;Pantano;Isla Pantano; -
+35;<img src="/images/kube/kubes/kube35.png" title="Madera Pantano"/>;Madera Pantano;Isla Pantano; -
+36;<img src="/images/kube/kubes/kube36.png" title="Hojas Pantano"/>;Hojas Pantano;Isla Pantano; -
+37;<img src="/images/kube/kubes/kube37.png" title="Lodo"/>;Lodo;Isla Pantano; -
+38;<img src="/images/kube/kubes/kube38.png" title="Roca Fría"/>;Roca Fría;Isla Volcán; -
+39;<img src="/images/kube/kubes/kube39.png" title="Roca Volcánica"/>;Roca Volcánica;Isla Volcán; -
+40;<img src="/images/kube/kubes/kube40.png" title="Cenizas"/>;Cenizas;Isla Antena; -
+41;<img src="/images/kube/kubes/kube41.png" title="Arenisca"/>;Arenisca;Isla Antena; -
+42;<img src="/images/kube/kubes/kube42.png" title="Tótem Antiguo"/>;Tótem Antiguo;Isla Antena; -
+43;<img src="/images/kube/kubes/kube43.png" title="Pasto"/>;Pasto;Isla Pastizal; -
+44;<img src="/images/kube/kubes/kube44.png" title="Flor Blanca"/>;Flor Blanca;Isla Pastizal; -
+45;<img src="/images/kube/kubes/kube45.png" title="Flor Rosa"/>;Flor Rosa;Isla Pastizal; -
+46;<img src="/images/kube/kubes/kube46.png" title="Stonehenge"/>;Stonehenge;Isla Pastizal; -
+47;<img src="/images/kube/kubes/kube47.png" title="Sabana"/>;Sabana;Isla Sabana; -
+48;<img src="/images/kube/kubes/kube48.png" title="Arbusto Seco"/>;Arbusto Seco;Isla Sabana; -
+49;<img src="/images/kube/kubes/kube49.png" title="Cebra"/>;Cebra;Isla Sabana; -
+50;<img src="/images/kube/kubes/kube50.png" title="Elefante"/>;Elefante;Isla Sabana; -
+51;<img src="/images/kube/kubes/kube51.png" title="Arena"/>;Arena;Isla Desierto; -
+52;<img src="/images/kube/kubes/kube52.png" title="Cactus"/>;Cactus;Isla Desierto; -
+53;<img src="/images/kube/kubes/kube53.png" title="Bellota"/>;Bellota;Isla Gigante; -
+54;<img src="/images/kube/kubes/kube54.gif" title="Lava"/>;Lava;Isla Volcán (requiere <b>Protección Kraft</b>); -
+55;<img src="/images/kube/kubes/kube55.png" title="Oscuro"/>;Oscuro;Cofre/Islas Vírgenes/Filón;Con un megacubo, se arma un <b>Dolmén</b>.
+56;<img src="/images/kube/kubes/kube56.png" title="Dolmén"/>;Dolmén;Megacubo de Oscuro(no tomable);Ver <a href="http://ww.guiamt.es/kube/primeros_pasos/#dolmen"><b>Dolmenes/b></a>.
+57;<img src="/images/kube/kubes/kube57.png" title="Meka"/>;Meka;Isla Metal; -
+58;<img src="/images/kube/kubes/kube58.png" title="Metal"/>;Metal;Isla Metal; -
+59;<img src="/images/kube/kubes/kube59.png" title="Acero"/>;Acero;Isla Metal; -
+60;<img src="/images/kube/kubes/kube60.png" title="Koala"/>;Koala;Isla Jungla; -
+61;<img src="/images/kube/kubes/kube61.png" title="Invisible"/>;Invisible;Isla Milagro;Su apariencia es similar al cielo.
+62;<img src="/images/kube/kubes/kube62.png" title="Ametista"/>;Ametista;Filón;Con un megacubo, se arman tres cubos Niebla.
+63;<img src="/images/kube/kubes/kube63.png" title="Esmeralda"/>;Esmeralda;Filón;Con un megacubo, se arman tres cubos Oscuro(sombra).
+64;<img src="/images/kube/kubes/kube64.png" title="Rubí"/>;Rubí;Filón;Con un megacubo, se arman tres cubos Oscuro(sombra).
+65;<img src="/images/kube/kubes/kube65.png" title="Zafiro"/>;Zafiro;Filón;Con un megacubo, se arman tres cubos Oscuro(sombra).
+66;<img src="/images/kube/kubes/kube66.png" title="Niebla"/>;Niebla;Megacubo de Ametista; -
+67;<img src="/images/kube/kubes/kube67.png" title="Oscuro(sombra)"/>;Oscuro(sombra);Megacubo de Esmeralda, Rubí, o Zafiro;Con un megacubo, se arman dos cubos Telepuerto.
+68;<img src="/images/kube/kubes/kube68.png" title="Luz"/>;Luz;Megacubo de Oro;Con un megacubo, se arman dos cubos Telepuerto.
+69;<img src="/images/kube/kubes/kube69.png" title="Oro"/>;Oro;Cofre/Filón;Con un megacubo, se arman tres cubos Luz.
+70;<img src="/images/kube/kubes/kube70.png" title="Foro"/>;Foro;Cofre;Permiten acceder al foro de la zona.
+71;<img src="/images/kube/kubes/kube71.png" title="Telepuerto"/>;Telepuerto;Megacubo de Luz u Oscuro(sombra);Ver <a href="http://ww.guiamt.es/kube/cubos/#telepuerto"><b>Cubos Telepuerto</b></a>.
+72;<img src="/images/kube/kubes/kube72.png" title="Resorte"/>;Resorte;Cofre;Permite saltar hasta 10 cubos al caminar por encima.
+73;<img src="/images/kube/kubes/kube73.png" title="Cofre"/>;Cofre;Isla Milagro /Islas vírgenes(no tomable);Ver <a href="http://ww.guiamt.es/kube/primeros_pasos/#cofres"><b>Cofres</b></a>.
+74;<img src="/images/kube/kubes/kube74.png" title="Rubix"/>;Rubix;Cofre;Con un megacubo, se arma un cubo MT.
+75;<img src="/images/kube/kubes/kube75.png" title="MT"/>;MT;Megacubo de Rubix o Caja; -
+76;<img src="/images/kube/kubes/kube76.png" title="Caja"/>;Caja;Cofre;Con un megacubo, se arma un cubo MT.
+77;<img src="/images/kube/kubes/kube77.png" title="Kubo de Navidad"/>;Kubo de Navidad;Evento navideño; -

@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "outDir": "./js/",
+        "sourceMap": false,
+        "noImplicitAny": false,
+        "module": "commonjs",
+        "target": "es2015"
+    },
+    "include": [
+        "ts/**/*"
+    ],
+    "compileOnSave": true
+}

@@ -1,0 +1,37 @@
+runtime: php73
+
+# Defaults to "serve index.php" and "serve public/index.php". Can be used to
+# serve a custom PHP front controller (e.g. "serve backend/index.php") or to
+# run a long-running PHP script as a worker process (e.g. "php worker.php").
+#
+# entrypoint: serve index.ph
+
+handlers:
+# Serve images as static resources.
+- url: /(.+\.(gif|png|jpg|GIF|PNG|JPG))$
+  static_files: \1
+  upload: .+\.(gif|png|jpg|GIF|PNG|JPG)$
+
+# Serve php scripts.
+- url: /
+  script: auto
+  secure: never
+
+  # Serve php scripts.
+# - url:
+#   script: index.php
+#   secure: never
+
+# # Serve php scripts.
+# - url: /(.+\.php)$
+#   script: \1
+#   secure: never
+
+
+# # Serve php scripts.
+# - url: /(.*)$
+#   script: \1/index.php
+#   secure: never
+
+# vpc_access_connector:
+#  name: projects/guiamt-309818/locations/us-east1/connectors/appengine-to-sqlserver

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "ahsankhatri/firestore-php": "^2.0"
+    }
+}

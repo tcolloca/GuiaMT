@@ -1,0 +1,1517 @@
+﻿
+<style>
+/** QUEST **/
+
+.itemQuest {
+	float				: left;
+	position			: relative;
+
+	width				: 35px;
+	text-align			: center;
+	font-size			: 7.5pt;
+	font-weight			: bold;
+
+	margin-left			: 3px;
+	margin-right		: 10px;
+	margin-top			: 2px;
+	margin-bottom		: 2px;
+
+	padding-top			: 0px;
+	padding-left		: 2px;
+	padding-right		: 2px;
+}
+
+.itemDesc {
+	clear				: left;
+	margin				: 5px;
+	padding				: 0px;
+	text-align			: left;
+	font-size			: 8pt;
+	}
+
+.itemQuest span {
+	font-weight			: normal;
+}
+
+.itemQuest em {
+	font-weight			: normal;
+	font-style			: normal;
+	font-size			: 90%;
+}
+
+table.quest {
+	margin-top			: 40px;
+	margin-left			: 49px;
+	width				: 450px;
+	border-collapse		: collapse;
+	background-color	: #d5e8f8;
+        align: center;
+}
+
+table.quest td {
+	text-align			: right;
+}
+
+table.quest th {
+	border-bottom		: 2px solid #a4c5eb;
+	border-right		: 1px dotted #a4c5eb;
+	border-left			: 1px dotted #a4c5eb;
+
+	padding-left		: 5px;
+
+	font-size			: 8pt;
+	text-align			: right;
+	text-transform		: uppercase;
+	font-weight			: normal;
+}
+
+table.quest .thLeft {
+	padding-right		: 2px;
+	width				: 150px;
+}
+
+table.quest .thRight {
+	text-align			: left;
+	padding-left		: 26px;
+}
+
+table.quest td {
+	padding-left		: 20px;
+}
+
+table.quest tr.questLine {
+	border				: 1px solid #bad3ef;
+}
+
+table.quest td.questTitle {
+	background-color	: #c4dcf3;
+	padding-right		: 5px;
+	padding-bottom		: 0px;
+	font-size			: 10.5pt;
+	width				: 140px;
+}
+
+table.quest img {
+	width				: 20px;
+	height				: 20px;
+	vertical-align		: middle;
+}
+
+table.quest tr.questLine td {
+	border-bottom		: 1px dotted #6e418f;
+	padding-bottom		: 2px;
+}
+
+.complete, .notComplete {
+	font-size			: 9pt;
+}
+
+.complete, .complete_lot {
+	color				: #99bee8;
+	font-weight			: normal;
+}
+.notComplete, .notComplete_lot {
+	color				: #5591d9;
+}
+
+.notComplete_lot {
+	font-weight			: normal;
+}
+
+.complete_lot {
+	color				: #5591d9;
+}
+
+table.quest td.notYetQuest {
+	text-align			: center;
+	background-color	: #c4dcf3;
+	border				: 1px solid #bad3ef;
+	margin				: 20px;
+	padding				: 5px;
+	padding-right		: 25px;
+	font-size			: 10.5pt;
+}
+
+table.quest tr.noneQuests img {
+	width			: 20px;
+	height			: 20px;
+	vertical-align	: middle;
+	margin-right	: -5px;
+}
+table.quest tr.noneQuests div {
+	float			: left;
+	position		: relative;
+	margin-right	: 20px;
+	margin-top		: 5px;
+	font-size		: 140%;
+}
+table.quest tr.noneQuests td {
+	border-bottom	: 1px dotted #6e418f;
+	padding-bottom	: 5px;
+}
+table.quest tr.noneQuests p {
+	font-size		: 8pt;
+	width			: 180px;
+	color			: #A47AC2;
+	margin-top		: 2px;
+	margin-bottom	: 0px;
+	line-height		: 8pt;
+	padding-right	: 10px;
+}
+: relative;
+	font-size			: 11pt;
+}
+
+.forum .message .header .author img {
+	vertical-align		: middle;
+}
+
+.forum .message .header .author a {
+	line-height			: 15px;
+}
+
+.forum .message .header .statut { /* ie.css */
+	float				: left;
+	position			: relative;
+	padding				: 0px 2px 0px 2px;
+	margin-right		: 8px;
+	min-width			: 60px;
+	background-color	: #99c0eb;
+	-moz-border-radius	: 6px 6px 6px 6px;
+	border				: 1px solid #4189da;
+}
+
+.forum .message .header .statut img {
+	margin-top			: 3px;
+	margin-bottom		: -3px;
+}
+
+.forum .message .header .date {
+	float				: right;
+	position			: relative;
+	padding-right		: 3px;
+	line-height			: 22pt;
+}
+
+.forum .message .content {
+	padding				: 5px 5px 5px 10px;
+	margin-bottom		: 8px;
+	text-align			: left;
+	margin-top			: 0px;
+	border-top			: 2px solid #cce4f9;
+	border-bottom		: 1px dotted #99c0eb;
+	background-color	: #d5e8f8; /*#e3f0fb*/
+	border-left			: 1px solid #bfd9f2;
+	border-right		: 1px solid #bfd9f2;
+}
+
+.forum .message .content img {
+	vertical-align		: middle;
+	margin				: 0px 1px 0px 1px;
+}
+
+.forum .message .content em {
+	font-weight			: normal;
+	color				: #6e418f;
+}
+
+.forum .message .content cite {
+	display				: block;
+	border-left			: 2px solid #5591d9;
+	margin-left			: 10px;
+	padding-left		: 5px;
+	color				: #5591d9;
+}
+
+.forum .message .content .underline {
+	border-bottom		: 1px dashed #5591d9;
+}
+
+/*** FORUM: MESSAGE EDITING ***/
+
+.forum .edit .error {
+	color				: #bd2447;
+	font-weight			: bold;
+}
+
+.forum .edit label {
+	display				: block;
+	font-weight			: bold;
+}
+
+.forum .edit input.title, .forum .edit .editor textarea {
+	width				: 430px;
+	border-color		: #99c0eb;
+	padding				: 3px;
+}
+
+.forum .edit .designButtons {
+	margin-top			: 20px;
+}
+
+.forum .edit .designButtons .button {
+	width				: 40px;
+	height				: 20px;
+}
+
+.forum .edit .designButtons .modMacros {
+	margin-top			: 5px;
+}
+.forum .edit .designButtons .modMacros .button {
+	font-size			: 90%;
+	width				: 50px;
+	border-color		: #7e0001;
+	background-color	: #e7a916;
+}
+
+.forum .edit .designButtons .button:hover {
+	border-color		: white;
+}
+
+.forum .edit .smileyBox {
+	float				: right;
+	position			: relative;
+	margin-top			: 30px;
+	width				: 90px;
+	text-align			: center;
+	border				: 1px dashed #99c0eb;
+}
+
+.forum .edit .itemBox {
+	margin-top			: 5px;
+	text-align			: left;
+	padding-left		: 5px;
+	padding-right		: 5px;
+	border				: 1px dashed #99c0eb;
+}
+
+.forum .edit .editor label {
+	margin-top			: 10px;
+}
+
+.forum .edit .editor textarea {
+	height				: 300px;
+	border				: 1px solid #99c0eb;
+	text-align			: left;
+	padding				: 3px;
+}
+
+.forum .edit .row {
+	margin-bottom		: 8px;
+}
+
+/** FORUM: SEARCH **/
+
+.forum dt.first {
+	margin-top			: 0px;
+}
+
+.forum .formSearch {
+	text-align			: center;
+	padding-bottom		: 20px;
+}
+
+.forum dt {
+	color				: #5591d9;
+	font-weight			: bold;
+	border-bottom		: 1px dotted ;
+	margin-top			: 30px;
+}
+
+.forum .searchResult {
+	border-collapse		: none;
+	border-left		 	: 1px solid #99c0eb;
+	border-right		: 1px solid #99c0eb;
+	width				: 100%;
+	margin-bottom		: 20px;
+	margin-top			: 10px;
+}
+
+.forum .searchResult td.replies {
+	display				: none;
+}
+
+.forum .searchResult th {
+	padding-left		: 5px;
+	color				: #d5e8f8;
+	background-color	: #a7caed;
+}
+
+.forum .searchResult td {
+	background-color	: #e3f0fb;
+	padding				: 3px;
+	cursor				: pointer;
+}
+
+.forum .searchResult td.subject {
+	font-size			: 12pt;
+	padding-left		: 20px;
+}
+
+.forum .searchResult td.subject a {
+	font-weight			: normal;
+	color				: #6e418f;
+}
+
+.forum .searchResult td.subject a:hover{
+	font-weight			: normal;
+	color				: #c0a3d6;
+}
+
+.forum .nothingFound {
+	text-align			: center;
+	font-size			: 10.5pt;
+}
+
+
+/** FORUM PAGINATE **/
+
+.forum .paginate {
+	font-size			: 9pt;
+	margin				: 0px;
+}
+
+.forum .currentPage {
+	font-size			: 9pt;
+	margin				: 0px;
+}
+
+
+/*** PNG SUPPORT FOR PYRAMID ICONS ***/
+
+img.icon_pyramid, img.icon_pyramid_hof {
+	width				: 24px;
+	height				: 20px;
+	background-repeat	: no-repeat;
+	background-position	: top left;
+}
+
+img.icon_pyramid_1 {	background-image	: url(http://www.hammerfest.es/img/design/icon_pyramid_1.png); }
+img.icon_pyramid_2 {	background-image	: url(http://www.hammerfest.es/img/design/icon_pyramid_2.png); }
+img.icon_pyramid_3 {	background-image	: url(http://www.hammerfest.es/img/design/icon_pyramid_3.png); }
+img.icon_pyramid_4 {	background-image	: url(http://www.hammerfest.es/img/design/icon_pyramid_4.png); }
+img.icon_pyramid_hof {	background-image	: url(http://www.hammerfest.es/img/design/icon_pyramid_hof.png); }
+
+
+/*** MODERATOR MENUS ***/
+
+.moderation {
+	margin-bottom		: 20px;
+	padding-left		: 5px;
+	padding-right		: 5px;
+	background-color	: #bfd9f2;
+	border				: 1px solid #8992da;
+	font-size			: 8pt;
+	-moz-border-radius	: 6px 6px 6px 6px;
+}
+
+.moderation a {
+	color				: #3833a6;
+}
+
+.moderation .opened {
+	color				: #3833a6;
+}
+
+.moderation .opened a {
+	color				: #de0101;
+}
+
+.moderation .closed {
+	color				: #3833a6;
+}
+
+.moderation .closed a {
+	color				: green;
+}
+
+.forum .isClosed {
+	font-style			: italic;
+}
+
+.moderation h3 {
+	border				: none;
+	font-size			: 8pt;
+	font-weight			: bold;
+	text-transform		: uppercase;
+}
+
+.moderation ul, ul.moderation {
+	height				: 17px;
+	list-style			: none;
+	margin-top			: 8px;
+	font-size			: 7px;
+	text-align			: center;
+
+	margin-bottom		: 20px;
+	font-size			: 8pt;
+	background-color	: #e3f0fb;
+	border				: 1px dotted #4189da;
+	-moz-border-radius	: 5px;
+}
+.moderation ul li, ul.moderation li {
+	display				: inline;
+	padding-right		: 10px;
+}
+
+.forum ul.power {
+	list-style			: none;
+	font-size			: 7pt;
+}
+
+.forum ul.power li {
+	float				: left;
+	position			: relative;
+	margin-left			: 5px;
+	margin-top			: 6px;
+	padding				: 3px;
+	background-color	: #e3f0fb;
+	height				: 10px;
+	line-height			: 6pt;
+	border				: 1px dotted #4189da;
+	-moz-border-radius	: 5px;
+}
+
+.forum .sticky {
+	padding-bottom		: 5px;
+}
+
+
+/*** FIRST PLAY ***/
+.firstPlay p {
+	margin				: auto;
+	margin-bottom		: 0px;
+	margin-top			: 0px;
+	font-size			: 10pt;
+	text-align			: center;
+}
+
+.bankWarning {
+	color				: #de0101;
+	font-weight			: bold;
+}
+
+/** **/
+
+.readmepls {
+	background-color	: #b497d9;
+	padding				: 7px;
+	-moz-border-radius	: 10px;
+	color				: #fff;
+	text-align			: center;
+	font-size			: 10.5pt;
+}
+
+.readmepls a {
+	color				: #fff;	
+	font-size			: 9pt;
+}
+
+.supportsite {
+	vertical-align		: -35%;	
+}
+
+dd.categDesc a {
+	text-decoration		: none;
+	color				: #6E418F;
+}
+
+/** **/
+
+ul.menuactions {
+	list-style-type		: none;
+	margin				: 0px;
+	padding				: 0px;
+	width				: 450px;
+	margin-left			: 50px;
+	
+}
+
+ul.menuactions li {
+	margin				: 0px;
+	padding				: 0px;
+	float				: left;
+	position			: relative;
+	margin-right		: 30px;	
+	font-size			: 8pt;
+}
+
+.button2 {
+	display				: block;
+	width				: 120px;	
+	height				: 23px;
+	color				: white;
+	font-weight			: bold;
+	background-color	: #ae90d0;
+	-moz-border-radius	: 10px;
+	text-align			: center;
+	padding-top			: 5px;
+}
+
+.button2:hover {
+	background-color	: #b99cdf;
+}
+
+a.button2:hover, a.button2:active, a.button2:visited {
+	color				: white;
+}
+
+</style>
+
+<table class="quest">
+			<thead>
+				<tr>
+					<th class="thLeft">
+						<strong>Exploraciones completadas</strong>
+					</th>
+
+					<th class="thRight">
+						<strong>Estatus</strong>
+					</th>
+				</tr>
+			</thead>
+			<tbody>
+								<tr class="questLine">
+					<td class="questTitle">Las constelaciones</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/40.gif" alt="Sagitario"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/41.gif" alt="Capricornio"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/42.gif" alt="Leo"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/43.gif" alt="Tauro"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/44.gif" alt="Libra"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/45.gif" alt="Aries"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/46.gif" alt="EscorpiÃ³n"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/47.gif" alt="CÃ¡ncer"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/48.gif" alt="Acuario"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/49.gif" alt="GÃ©minis"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/50.gif" alt="Piscis"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/51.gif" alt="Virgo"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"A partir de ahora y para siempre, Â¡Igor puede poner 2 bombas!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Influencias del zodÃ­aco</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/52.gif" alt="Elixir de Sagitario"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/53.gif" alt="Elixir de Capricornio"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/54.gif" alt="Elixir de Leo"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/55.gif" alt="Elixir de Tauro"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/56.gif" alt="Elixir de Libra"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/57.gif" alt="Elixir de Aries"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/58.gif" alt="Elixir de EscorpiÃ³n"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/59.gif" alt="Elixir de CÃ¡ncer"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/60.gif" alt="Elixir de Acuario"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/61.gif" alt="Elixir de GÃ©minis"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/62.gif" alt="Elixir de Acuario"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/63.gif" alt="Elixir de Virgo"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor ya sabe lanzar verticalmente sus bombas y colocarlas en la 			plataforma superior. Pulsa ABAJO junto a una bomba ya lanzada."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Primeros pasos</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/103.gif" alt="Vida palpitante"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"A partir de ahora Igor empezarÃ¡ siempre la partida con una vida extra."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">La aventura comienza</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/104.gif" alt="Vida aventurosa"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor empezarÃ¡ para siempre la partida con otra vida extra."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Un destino Ã©pico</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/105.gif" alt="Vida Ã©pica"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor empezarÃ¡ la partida con otra vida extra mÃ¡s!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Perseverancia</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/36.gif" alt="Igoro"/>
+							<div class="complete">5</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor empezarÃ¡ la partida con una vida extra."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Gourmand</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1000.gif" alt="Cristales de Hammerfest"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1003.gif" alt="Caramelo Berlinmalva"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1013.gif" alt="Magdalena de piedras"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1027.gif" alt="ChucherÃ­a"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1041.gif" alt="Piruleta"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1043.gif" alt="Polo de plÃ¡stico"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Nuevos alimentos, mÃ¡s sanos y apetitosos, aparecerÃ¡n ahora en el juego."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Quiero algo dulce!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1003.gif" alt="Caramelo Berlinmalva"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1027.gif" alt="ChucherÃ­a"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1041.gif" alt="Piruleta"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1070.gif" alt="Fantasmita"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1074.gif" alt="Helado de Soja Max"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor quiere azÃºcar! A partir de ahora aparecerÃ¡n chucherÃ­as en el juego."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">MalnutriciÃ³n</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1022.gif" alt="LÃ­quido raro"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1024.gif" alt="LÃ­quido extraÃ±o"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1028.gif" alt="Huevo frito"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1025.gif" alt="Huevo crudo"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"El gusto de Igor por los alimentos poco equilibrados le permitirÃ¡ encontrar 			aÃºn mÃ¡s alimentos de dudosa capacidad nutritiva."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Gusto refinado</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1002.gif" alt="BastÃ³n de Bobble"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1046.gif" alt="Gump"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1040.gif" alt="Sushi de atÃºn"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡El rÃ©gimen extraÃ±o de Igor trae nuevos y exÃ³ticos alimentos en el juego!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Avance tecnolÃ³gico</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/4.gif" alt="LÃ¡mpara Pidedeseo"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/7.gif" alt="BotÃ­n IcePump"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/13.gif" alt="Casco"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Un montÃ³n de objetos con efectos raros aparecen ahora en el juego para 			ayudarte en tu aventura!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">La pequeÃ±a guÃ­a de hongos</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/106.gif" alt="Libro de los hongos"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor ha descubierto una obra extraÃ±a. Es una especie de libro de cocina 			sobre hongos alucinÃ³genos. Ahora podrÃ¡ encontrarlos en sus bÃºsquedas."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Encuentra las monedas de oro secretas!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1051.gif" alt="Moneda de oro secreta"/>
+							<div class="complete">150</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Nuevas riquezas de gran valor aparecerÃ¡n ahora en el juego!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">El grimorio de las Estrellas</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/107.gif" alt="Libro de las estrellas"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Esta obra misteriosa habla extensamente sobre las 12 constelaciones del ZodÃ­aco. 			Â¡Ya estÃ¡n disponibles en el juego!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Armageddon</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1.gif" alt="Escudo de madera y oro"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/5.gif" alt="LÃ¡mpara Negra"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/11.gif" alt="Paraguas rojo"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/21.gif" alt="Altavoz BÃ¡jaloya"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/22.gif" alt="Zapato viejo con agujeros"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/24.gif" alt="Pedrusco de los montes"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/25.gif" alt="Llama frÃ­a"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/28.gif" alt="Baratija de plata"/>
+							<div class="complete">3</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/38.gif" alt="TÃ³tem de los Dinos"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/82.gif" alt="Juicio penÃºltimo"/>
+							<div class="complete">5</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Objetos con efectos devastadores aparecerÃ¡n ahora en el juego!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">RÃ©gimen MotionTwin</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1057.gif" alt="Pizza de Donatello"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1074.gif" alt="Helado de Soja Max"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1137.gif" alt="Sandwich tostado HolandÃ©s"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1138.gif" alt="Pastel XXL de choco-mantequilla"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1139.gif" alt="Gaseosa"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1140.gif" alt="Tarta salada de queso"/>
+							<div class="complete">11</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1149.gif" alt="Fideos chinos deshidratados"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1045.gif" alt="PÃ©talo misterioso"/>
+							<div class="complete">30</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1081.gif" alt="Hidromiel de los Bosques"/>
+							<div class="complete">11</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"A base de comer cualquier cosa, Â¡Igor se ha vuelto un maestro de los juegos! 			Ahora podrÃ¡ coleccionar objetos y alimentos muy raros durante su aventura."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Creador de juegos innovadores</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1142.gif" alt="CafÃ© de fin de proyecto"/>
+							<div class="complete">20</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor aprecia los alimentos bÃ¡sicos, asÃ­ que puede que se le presente 			una bella carrera en el mundo de los videojuegos. Alimentos adaptados a Ã©l 			le serÃ¡n a partir de ahora propuestos durante el juego, Â¡asÃ­ como una baraja 			de cartas!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">La vida es como una caja de bombones...</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1046.gif" alt="Gump"/>
+							<div class="complete">5</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Deliciosos bombones tan sorprendentes como la vida misma son distribuidos ahora 			en Hammerfest!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">El tesoro difaÃ¯ned</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1008.gif" alt="Diamante difaÃ¯ned"/>
+							<div class="complete">30</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"A base de recoger tantos diamantes de misteriosa apariciÃ³n, Â¡Igor ha adquirido 			la facultad de localizar las piedras preciosas raras! Ahora podrÃ¡ encontrarlas 			a lo largo de sus exploraciones."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Super size me!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1001.gif" alt="Pan de carne"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1055.gif" alt="Bebida kipik"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1056.gif" alt="Dedos-de-TubÃ©rculo"/>
+							<div class="complete">20</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Como siempre, bien lejos de la buena alimentaciÃ³n, Igor descubre que puede 			tambiÃ©n alimentarse de alimentos en conserva."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Maestro joyero</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1009.gif" alt="Ojo del Tigre"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1010.gif" alt="Jade de 12kg"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1011.gif" alt="Reflejo-de-luna"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor se ha convertido en un autÃ©ntico experto en piedras preciosas. Â¡Ahora sus 			conocimientos le permiten descubrir joyas preciosas aÃºn mÃ¡s poderosas!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Gran Depredador</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1001.gif" alt="Pan de carne"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1021.gif" alt="Pollo congelado"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1025.gif" alt="Huevo crudo"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1061.gif" alt="Loro decapitado en salsa"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1162.gif" alt="Surimi de pomelo"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor estÃ¡ bien harto cazar chucherÃ­as! Depredador incondicional, ahora podrÃ¡ 			devorar toda clase de charcuterÃ­a."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Experto en ensaladas y potajes</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1020.gif" alt="Fideos chinos"/>
+							<div class="complete">15</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1039.gif" alt="SeÃ±or rÃ¡bano"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1060.gif" alt="Nadie sabe lo que es"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1104.gif" alt="Fabada asturiana en conserva"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1103.gif" alt="Litchis incaducables"/>
+							<div class="complete">3</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Se cuenta que Igor es la reencarnaciÃ³n de Ensalado, el reconocido maestro de la ensalada 			para conejos virtuales. Â¡Con su don podrÃ¡ recoger una gran variedad de verduras!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">FestÃ­n de Hammerfest</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1091.gif" alt="JamÃ³n"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1112.gif" alt="Ensalado"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1126.gif" alt="Pimiento amarillo"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1163.gif" alt="Calamar en su tinta"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1109.gif" alt="Roquefort"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1138.gif" alt="Pastel XXL de choco-mantequilla"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1142.gif" alt="CafÃ© de fin de proyecto"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Tras una comida tan completa, Igor estÃ¡ al fin listo para acceder a pasteles 			de exquisito gusto."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Merienda de cumpleaÃ±os</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/68.gif" alt="Vela"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1004.gif" alt="Caramelo Chamagros"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1005.gif" alt="Caramelo rosa-pralinÃ©"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1007.gif" alt="Chupakups de clorofila"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1015.gif" alt="Tarta suprema de frambuesas"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1016.gif" alt="Tarta muy rica"/>
+							<div class="complete">3</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1018.gif" alt="Helado de fresa"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1019.gif" alt="Copa helada"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1023.gif" alt="Gran azucarado"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1070.gif" alt="Fantasmita"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor ha encontrado todos los elementos para asegurar una buena merienda 			de cumpleaÃ±os! A partir de ahora podrÃ¡ obtener aÃºn mÃ¡s dulces para una segunda merienda."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Vividor</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1069.gif" alt="Cacahuete secreto"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1081.gif" alt="Hidromiel de los Bosques"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1094.gif" alt="Bacon al sirope de fresa"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Una buena comida no puede ser concebida sin tomarse antes unas tapas. 			Ahora Igor conoce bien lo que se necesita para un buen tapeo."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Fondue noruega</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1031.gif" alt="Queso con palillo de dientes"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1057.gif" alt="Pizza de Donatello"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1137.gif" alt="Sandwich tostado HolandÃ©s"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Los olores que emanan de la guarida de Igor no dejan ninguna duda: ha caÃ­do 			en el lado pestoso de los quesos. Ahora aparecerÃ¡n nuevos productos lÃ¡cteos 			en las cavernas."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Misterio de Guu</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/88.gif" alt="PokutÃ©"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/99.gif" alt="Pelos de Chourou"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/100.gif" alt="Guu de bolsillo"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1044.gif" alt="Manda"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Esta exploraciÃ³n no tiene ningÃºn interÃ©s, sÃ³lo el de aconsejarte el genial 			anime "Jungle wa itsumo Hare nochi Guu". BanyaaaaaÃ¯Ã¯ ^__^"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">ChucherÃ­as divinas</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1059.gif" alt="Rebanada de pan con crema de cacao y avellana"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1084.gif" alt="Emi-PralinÃ©"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1088.gif" alt="Caracol de chocolate de pasta de queso"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1144.gif" alt="Smiley crujiente"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1151.gif" alt="Tostada con crema de chocolate"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1152.gif" alt="Tostada con hemoglobina"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1153.gif" alt="Tostada de aceite"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1154.gif" alt="Tostada de mermelada pegajosa"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Las golosinas ya no son ningÃºn secreto para Igor. Â¡Ahora podrÃ¡ arrasar con 			cualquier chucherÃ­a legendaria de Harry "el guapo" que se le presente!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Igor y Cortex</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/21.gif" alt="Altavoz BÃ¡jaloya"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/26.gif" alt="Bombilla 30 watios"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/31.gif" alt="Gafas revolteadoras rojas"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/85.gif" alt="Martillo"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/90.gif" alt="Fulguro pies-pesados"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor se ha puesto a fabricar cachibaches misteriosos... Â¡prepÃ¡rate para 			coleccionar mÃ¡quinas extraÃ±as en el juego!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Afrontar la oscuridad</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/68.gif" alt="Vela"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor ha aprendido a autoiluminarse! Â¡Gracias a su antorcha incorporada ya 			no se perderÃ¡ en la oscuridad de los niveles mÃ¡s avanzados!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Y se hizo la luz!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/26.gif" alt="Bombilla 30 watios"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Preparado para los peligros de la vida moderna, Â¡Igor no temerÃ¡ nunca mÃ¡s a la 			oscuridad de los niveles avanzados!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Navidad en Hammerfest!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/109.gif" alt="Copo de nieve simple"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Â¡Has ganado 5 vidas extra!!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Feliz cumpleaÃ±os Igor</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/110.gif" alt="Copo de nieve raro"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Â¡Has ganado 10 partidas gratis!!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Regalo celestial</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/111.gif" alt="Copo de nieve gigantesco"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Â¡Has ganado 20 partidas gratis!!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Compra de partidas mejorada</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/10.gif" alt="TelÃ©fono-no-no"/>
+							<div class="complete">5</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"A partir de ahora cada vez que compres partidas con nuestro sistema de pago, 			Â¡obtendrÃ¡s mÃ¡s partidas que antes por el mismo precio!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Exterminador de Sorbetex</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1178.gif" alt="Estatua: Sorbetex de LimÃ³n"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Has presionado sin piedad a los limones Sorbetex!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Desactivador de Bombinos</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1179.gif" alt="Estatua: Bombino"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Has sobrevivido a las explosiones de los Bombinos!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Asesino de peras</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1180.gif" alt="Estatua: Pera Malabomba"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Has matado un nuevo monstruo: Â¡las Peras Malabombas!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Triturador de Tagadas</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1181.gif" alt="Estatua: Tagada"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Receta de Batido de fresa: azÃºcar, leche, un huevo y un buen montÃ³n de 			Fresas Tagada. Poner nata al final para decorar."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Kiwi rasca, vaya cÃ³mo pica...</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1182.gif" alt="Estatua: Kiwi-Zapador"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Conseguiste evitar todas las trampas de los Kiwis Zapadores!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Cazador de Sandinas</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1183.gif" alt="Estatua: Sandina"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Estupendo, Â¡no te has dejado impresionar por la manada de Sandinas!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Aniquilador de PiÃ±aguedones</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1184.gif" alt="Estatua: PiÃ±aguedÃ³n"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Llegaste gloriosamente hasta el final en la lucha contra los PiÃ±aguedones!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Rey de Hammerfest</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/102.gif" alt="La Zanahoria de Igor"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Te has pasado el juego! Tu perseverancia y tu tenacidad te permitieron 			derrotar al malvado TubÃ©rculo y recuperar la nariz de Igor. Â¡A partir de ahora 			jugarÃ¡s siempre con una vida extra y la zanahoria!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Sombrero loco</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/72.gif" alt="Sombrero de Mago Gris"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/91.gif" alt="Sombrero de paja de Luffy"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/92.gif" alt="Sombrero de Tony Tony Chopper"/>
+							<div class="complete">10</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor ha descubierto una nueva pasiÃ³n por los gorros. PodrÃ¡s a partir de ahora 			darle a la tecla "D" durante la partida para cambiar de disfraz."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">El Pioupiouz estÃ¡ en ti</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/112.gif" alt="PÃ­opÃ­o carnÃ­voro"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"HabÃ­a que esperarlo: a base de recoger cualquier cosa, Â¡Igor ha acabado 			devorando un PÃ­opÃ­o! Pulsa la tecla "D" durante la partida para cambiar 			de disfraz."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Cazador de champiÃ±ones</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/14.gif" alt="Delicia alucinÃ³gena azul"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/15.gif" alt="Seta chuli y roja"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/16.gif" alt="PequeÃ±a Walalu de los bosques"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/17.gif" alt="Seta dorada trepadora"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Como su homÃ³logo italiano (fontanero con gorra roja), Igor siente una gran pasiÃ³n 			por los champiÃ±ones. Â¡PodrÃ¡s a partir de ahora disfrazar a Igor pulsando la tecla 			"D" durante la partida!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Sucesor de TubÃ©rculo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/113.gif" alt="Capa de TubÃ©rculo"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Parece que Igor ha... cambiado. Su mirada se ha vuelto frÃ­a. Se esconde tras 			una gran capa marrÃ³n y ahora su semblante es oscuro. Parece que poco a poco 			se estÃ¡ transformando en quien fue su enemigo. 			Â¡DisfrÃ¡zate de TubÃ©rculo pulsando la tecla "D" durante la partida!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡La primera Llave!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1190.gif" alt="Llave Maestra de Madera"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor ha encontrado una Llave Maestra de Madera. Sin duda debe de abrir 			una puerta en algÃºn sitio de las cavernas..."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Rigor Dangerous</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1191.gif" alt="Llave de Rigor Dangerous"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Has descubierto en tu aventura una vieja Llave Oxidada! 			Contiene una pequeÃ±a inscripciÃ³n: "Rick". Sin duda fue su antiguo propietario..."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">La Meluzine perdida</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1192.gif" alt="Meluzina"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"La Meluzine, llave legendaria salida de viejos cuentos hammerfestianos, 			abre segÃºn dicen la puerta a grandes riquezas. Queda por saber dÃ³nde estÃ¡ esa puerta..."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Por fin el borracho!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1193.gif" alt="Llave del Bruto"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Esta extraÃ±a pequeÃ±a llave huele a vino: Â¡es la Llave Borracha!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">CongelaciÃ³n</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1194.gif" alt="Furtok Glacial"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Como cualquier otro hombre de nieve, Igor tiene problemas para guardar esta llave en 			la mano. Esta puerta da acceso a los lugares mÃ¡s recÃ³nditos de Hammerfest."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Una llave herrumbrosa</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1195.gif" alt="Vieja Llave Oxidada"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Este pequeÃ±o trozo metÃ¡lico amorfo no parece tener un gran valor. Â¡Sin embargo 			hay que desconfiar de las apariencias! Â¿QuiÃ©n puede saber quÃ© clase de aventura 			se esconde mÃ¡s allÃ¡ de la puerta que abrirÃ¡?"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Dejadlo libre!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1196.gif" alt="AutorizaciÃ³n Madera-Bonita"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Todo tu poder administrativo contarÃ¡ con el apoyo del formulario de AutorizaciÃ³n 			Madera-Bonita BJ22a."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Los Mundos Arduos</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1197.gif" alt="Llave de los Mundos Arduos"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Debido a que has alcanzado el nivel 50 en el modo Pesadilla, Â¡ganas la Llave de los Mundos 			Arduos!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡RÃ¡aapido!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1198.gif" alt="Llave Que Rasca"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Sin saber muy bien por quÃ©, la Llave Que Rasca que has encontrado te da unas ganas 			tremendas de correr por todos lados y rodar como un ovillo."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">VacÃ­arle los bolsillos a TubÃ©rculo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1199.gif" alt="Llave Maestra de TubÃ©rculo"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"TubÃ©rculo, el hechicero malvado, llevaba una llave..."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">TubÃ©rculo, seÃ±or de los infiernos</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1200.gif" alt="Llave de las Pesadillas"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Todo tu poder y maestrÃ­a absoluta de las tÃ©cnicas de combate de Hammerfest permitieron 			que derrotaras al mismÃ­simo TubÃ©rculo en el modo Pesadilla! Gracias a ello eres el 			privilegiado poseedor de la Llave Ãnica."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">El agua que sabe a perfume</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1209.gif" alt="Lata Express"/>
+							<div class="complete">20</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1210.gif" alt="Cerveza de las fiestas en Bordeaux"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1211.gif" alt="Espuma voladora"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1212.gif" alt="Vino burguÃ©s del Gran Teatro"/>
+							<div class="complete">3</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1213.gif" alt="Licor malÃ©fico"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"El exceso del consumo de alcohol es perjudicial para la salud. Lo dicen las autoridades 			sanitarias. Sin embargo, Â¡en Hammerfest te ha permitido desbloquear la Llave Borracha! 			A partir de ahora tienes muchas posibilidades de encontrarla en las cavernas."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Papeleo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1214.gif" alt="Sello MotionTwin"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1215.gif" alt="Factura gratis"/>
+							<div class="complete">15</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1216.gif" alt="Post-It de FranÃ§ois, no entiendo tu letra"/>
+							<div class="complete">3</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1217.gif" alt="Lapicero solitario sin pegatina de perro"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1218.gif" alt="Grapadora del Caos"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor es un maestro en el arte de rellenar formularios administrativos. 			Pronto podrÃ¡s encontrar la AutorizaciÃ³n Madera-bonita BJ22a en las cavernas."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Espejo, mi bonito espejo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1219.gif" alt="Espejo de la cÃ¡bala"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"El Espejo Bancal que has encontrado en el juego te permite ahora ver las cosas desde 			un Ã¡ngulo diferente. Â¡La opciÃ³n suplementaria de juego "Espejo" ha sido desbloqueada!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Modo pesadilla</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1220.gif" alt="Estrella demonÃ­aca"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Tienes talento. Mucho talento... pero Â¿serÃ­as capaz de ayudar a Igor en el modo Pesadilla? 			Â¡Esta opciÃ³n ha sido desbloqueada!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡La aventura continÃºa!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/117.gif" alt="Llave de Gordon"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"El consejo de los Zanahorios y Panteonianos te ha elegido para explorar con mÃ¡s atenciÃ³n las Cavernas 			de Hammerfest. La Llave de Gordon es tan sÃ³lo la primera etapa de una nueva misiÃ³n."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Joya de Ankhel</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/116.gif" alt="Joya de Ankhel"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Has hecho prueba de una habilidad y perspicacia sin igual al encontrar la Joya de Ankhel. 			Â¡La opciÃ³n Control Avanzado del BalÃ³n ha sido desbloqueada en el modo FÃºtbolfest!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Sandy comienza la aventura!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1221.gif" alt="Polvo de playa mÃ¡gica"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1222.gif" alt="Material de arquitecto"/>
+							<div class="complete">10</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1223.gif" alt="Maqueta de arena"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1224.gif" alt="Wink"/>
+							<div class="complete">3</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Todos los elementos han sido reunidos para en fin dar vida a Sandy, 			el hombre de arena! Este nuevo personaje podrÃ¡ unirse a ti en el modo 			Cooperativo, disponible para dos jugadores en el mismo ordenador. 			Â¡Re-descubre la gran aventura con un amigo!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Espejo, NUESTRO bonito espejo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1225.gif" alt="Espejo de las Arenas"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Con el Espejo de las Arenas, puedes ver la cosas desde nuevo Ã¡ngulo... 			Â¡y con un amigo! La opciÃ³n de juego "Espejo" ha sido desbloqueada 			para el modo Cooperativo."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Una gran Amistad</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1227.gif" alt="Sello de amistad"/>
+							<div class="complete">2</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡MÃ¡s vale tarde que nunca! Igor y Sandy han comprendido que es mejor 			trabajar juntos para sobrevivir en las Cavernas. La opciÃ³n de juego 			"Compartir vidas" ha sido desbloqueada para el modo Cooperativo. Si 			esta opciÃ³n es activada, cuando un jugador pierde su Ãºltima vida, 			utiliza una del segundo jugador para poder continuar la partida."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Aprendizaje de lanzamiento shurikens</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1228.gif" alt="Insignia de la orden de los Ninjas"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"De tanto saltar Igor ha desarrollado una habilidad digna de un gran ninja... 			Para probar su talento, deberÃ¡ recoger artefactos ninja dispersados en las 			cavernas."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Â¡Shinobi do!</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1229.gif" alt="Cuchillo suizo japonÃ©s"/>
+							<div class="complete">5</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1230.gif" alt="Shuriken de segundo rango"/>
+							<div class="complete">2</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1231.gif" alt="Shuriken de entrenamiento"/>
+							<div class="complete">7</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1232.gif" alt="Najinata"/>
+							<div class="complete">7</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1233.gif" alt="Lanza-bolitas de PrecisiÃ³n"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1234.gif" alt="Ocarina cantante"/>
+							<div class="complete">1</div>
+						</div><div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1235.gif" alt="Casco samurai"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Â¡Igor ha terminado la exploraciÃ³n de iniciaciÃ³n en la vÃ­a del Ninjutsu! 			Gracias a ello la opciÃ³n de juego "Ninjutsu" ha sido desbloqueada para 			el modo Aventura."</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">RÃ¡pido como el rayo...</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1236.gif" alt="Insignia del MÃ©rito"/>
+							<div class="complete">100</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Igor es imbatible para apuntar y lanzar con precisiÃ³n... 			Â¡Ahora hay que probÃ¡rselo a todo el mundo! El modo CONTRARRELOJ ha sido desbloqueado 			y te ofrece la posibilidad de acceder a la nueva clasificaciÃ³n CONTRARRELOJ. 			Â¡Ya puedes ser el muÃ±eco de nieve mÃ¡s rÃ¡pido de Hammerfest!"</span></div>
+					</td>
+				</tr><tr class="questLine">
+					<td class="questTitle">Tumba de TubÃ©rculo</td>
+					<td>
+						<div class="itemQuest">
+							<img src="http://www.hammerfest.es/img/items/1238.gif" alt="Pase VIP PirÃ¡mide"/>
+							<div class="complete">1</div>
+						</div>						<div class="itemDesc"><strong>Efecto: </strong><span>"Has descubierto una extraÃ±a pirÃ¡mide de bolsillo en la tumba de TubÃ©rculo."</span></div>
+					</td>
+				</tr>			</tbody>
+		</table>
